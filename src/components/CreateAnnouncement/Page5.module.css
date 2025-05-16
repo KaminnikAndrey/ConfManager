@@ -1,0 +1,110 @@
+.form{
+    width: 760px;
+    margin: 0 auto 0 auto;
+    border: 1px solid #144584;
+    border-radius: 10px;
+}
+
+.wrapper{
+    padding: 25px 35px;
+}
+
+.wrap{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-bottom: 25px;
+}
+
+.conf .label{
+    font-size: 28px;
+    font-weight: 400;
+    color: rgba(20, 69,132, 0.75);
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+}
+
+.conf .input{
+    border: 1px solid #144584;
+    width: 100%;
+    height: 50px;
+    font-size: 24px;
+    color: rgba(20, 69,132,0.8);
+    padding: 5px 15px;
+    font-family: 'Lato', sans-serif;
+    border-radius: 5px;
+    font-weight: 700;
+
+}
+
+.conf .input2{
+    border: 1px solid #144584;
+    width: 300px;
+    height: 50px;
+    font-size: 24px;
+    color: rgba(20, 69,132, 0.8);
+    padding: 5px 15px;
+    font-family: 'Lato', sans-serif;
+    border-radius: 5px;
+    font-weight: 700;
+}
+
+.conf .input2::placeholder{
+    font-size: 24px;
+    color: rgba(20, 69,132,0.8);
+}
+
+.conf .form .btn{
+    width: 450px;
+    height: 75px;
+    color: #fff;
+    background-color: #3773C0;
+    text-align: center;
+    border-radius: 10px;
+    font-weight: 700;
+    font-size: 24px;
+    margin: 0 auto;
+    display: block;
+}
+
+.conf .textarea{
+    border: 1px solid #144584;
+    width: 100%;
+    font-size: 24px;
+    color: rgba(20, 69,132, 0.8);
+    padding: 15px;
+    font-family: 'Lato', sans-serif;
+    border-radius: 5px;
+    font-weight: 700;
+    height: 180px;
+    resize: none;
+    overflow-y: hidden;
+}
+
+.conf .flex{
+    display: flex;
+    justify-content: space-between;
+    width: 540px;
+    align-items: center;
+    padding: 10px 0;
+}
+
+.conf .flex .label{
+    height: fit-content;
+}
+
+.conf .input3{
+    border: 1px solid #144584;
+    width: 225px;
+    height: 50px;
+    font-size: 24px;
+    color: rgba(20, 69,132, 0.8);
+    padding: 5px 15px;
+    font-family: 'Lato', sans-serif;
+    border-radius: 5px;
+    font-weight: 700;
+}
+
+.conf .input3::placeholder{
+    color: rgba(20, 69,132, 0.8);
+}

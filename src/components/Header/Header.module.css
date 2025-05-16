@@ -1,0 +1,30 @@
+.header{
+    background-color: #144584;
+    padding: 20px 0;
+}
+
+.wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 40px;
+}
+
+.btn{
+    font-family: 'Lato', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    color: #144584;
+    width: 100px;
+    height: 40px;
+    background-color: #fff;
+    border-radius: 30px;
+    transition: transform 0.3s ease;
+}
+
+.username{
+    font-family: 'Lato', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    color: #fff;
+}
